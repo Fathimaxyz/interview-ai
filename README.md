@@ -1,16 +1,50 @@
-# React + Vite
+# Interview AI: AI-Powered Career Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React.js](https://img.shields.io/badge/Frontend-React.js-blue.svg)]()
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-green.svg)]()
+[![Gemini API](https://img.shields.io/badge/AI-Gemini-orange.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-Currently, two official plugins are available:
+An advanced career companion designed to bridge the gap between candidates and recruiters. This application leverages AI to parse resumes, identify skill gaps, and generate ATS-optimized documents.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+* **Secure Authentication:** JWT-based login with Token Blacklisting for robust session management.
+* **AI Integration:** Powered by Google Gemini API for intelligent resume analysis.
+* **Skill Gap Detection:** Automatically compares resume content against industry standards.
+* **ATS Optimization:** Generates professional-grade resumes tailored to job descriptions.
+* **Dynamic PDF Generation:** Built using Puppeteer to convert web-based resumes into high-quality PDFs.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
+<img width="679" height="588" alt="Screenshot 2026-06-03 131840" src="https://github.com/user-attachments/assets/acd8a37c-5b37-4cf2-8cf8-7805abf93f8b" />
 
-## Expanding the ESLint configuration
+<img width="1364" height="846" alt="Screenshot 2026-06-03 131931" src="https://github.com/user-attachments/assets/343ad243-ad68-40ca-aa48-5ea5bdc38e60" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1904" height="862" alt="Screenshot 2026-06-03 132231" src="https://github.com/user-attachments/assets/36b046fe-6765-4061-bce1-97b352b4f67a" />
+
+
+---
+
+## 🛠️ Tech Stack
+* **Frontend:** React.js
+* **Backend:** Node.js, Express.js
+* **Authentication:** JWT, Token Blacklisting
+* **AI Engine:** Google Gemini API
+* **PDF Generation:** Puppeteer
+
+---
+
+## ⚙️ Installation Instructions
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+* Node.js (v16+) installed.
+* MongoDB instance (or configured database).
+* Google Gemini API Key.
+
+### 1. Clone the Repository
+```bash
+git clone [ ]
+cd interview-ai
